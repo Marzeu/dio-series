@@ -33,15 +33,17 @@ namespace DIO.Series
             retorno += "Excluido: " + this.Excluido;
             return retorno;
         }
-
         public string retornaTitulo()
         {
             return this.Titulo;
         }
-
         public int retornaId()
         {
             return this.Id;
+        }
+         public bool retornaExcluido()
+        {
+            return this.Excluido;
         }
         public void Excluir()
         {
