@@ -31,6 +31,14 @@ namespace DIO.Series
             return retorno;
         }
 
-        
+        public string retornaTitulo()
+        {
+            return this.Titulo;
+        }
+
+        internal int retornaId()
+        {
+            return this.Id;
+        }
     }
 }
